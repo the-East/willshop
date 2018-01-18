@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .main{
+            position: relative;
+        }
+        .main>div{
+            height: 200px;
+            width: 200px;
+            border: 1px solid #000000;
+
+        }
+        #b{
+            display: none ;
+            background: rgba(0,0,0,0.5);
+            opacity: 0.5;
+            /*filter: alpha(opacity=50);*/
+            position: absolute;
+            top:0;
+            left: 0;
+            z-index: 1000;
+            /*transition: .6s all ease-in;*/
+        }
+    </style>
+
+</head>
+<body>
+<div class="main">
+    <div id="a">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi blanditiis cum eaque fugiat,
+        id illo impedit nobis non officiis quidem repellendus repudiandae,
+    </div>
+    <div id="b"></div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script>
+    $("#a").hover(function(){
+        $("#b").show();
+    },
+            function () {
+                $("#b").hide();
+            })
+</script>
+</body>
+</html>

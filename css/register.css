@@ -1,0 +1,78 @@
+.registertop{
+    width: 1100px;
+    margin: 0 auto;
+}
+#register a{
+    color: #369;
+}
+.registertop img{
+    vertical-align: middle;
+}
+.registertop span{
+    vertical-align: middle;
+    height: 100px;
+}
+/***********注册***********/
+
+.regmain{
+}
+.regmain .main {
+    width: 1100px;
+    position: relative;
+    border: 1px solid #ddd;
+    background: url("../img/regbgm.png") no-repeat 615px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: none;
+}
+.weixin-tip {
+    position: absolute;
+    right: 50px;
+    top: 230px;
+    color: #fd9496;
+    font-size: 16px;
+}
+.main form>div{
+    margin-top: 10px;
+    line-height: 22px;
+    vertical-align: baseline;
+}
+.main label>span{
+    width: 90px;
+    height: 40px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.main label>input[type='text'], .main label>input[type='password'] {
+    border: 1px solid #ccc;
+    width: 260px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 4px;
+    padding-left: 8px;
+}
+span.tips{
+    width: 270px;
+    height: 30px;
+    text-indent: 4px;
+    vertical-align: top;
+    line-height: 30px;
+    margin-left: 4px;
+    position: relative;
+    left: -275px;
+    top: 26px;
+    color: #636363;
+}
+
+.main #regbtn {
+    width: 280px;
+    height: 30px;
+    padding: 6px 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 0;
+    background: #e43f8e;
+    color: #fff;
+}

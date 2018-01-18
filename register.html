@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<div id="register">
+    <div class="registertop clear">
+        <a href="index.html">
+            <img src="img/registerimg.jpg"  alt=""/>
+        </a>
+        <span></span>
+        <span class="rg" style="color: #999;margin: 70px 10px 0 0; height: 30px;">
+            已经有为尔商城帐号了？请
+            <a href="login.html" style="color: #369;">登录</a>
+        </span>
+    </div>
+    <div class="regmain">
+        <div class="main">
+            <div class="weixin-tip text-center">
+                <p>关注为尔微商</p>
+                <p>随时随地掌握动态</p>
+            </div>
+            <form action="">
+                <div>
+                    <label>
+                        <span>手机号</span>
+                        <input type="text"/>
+                    </label>
+                    <span class="tips">输入常用的手机号码</span>
+                </div>
+                <div>
+                    <label>
+                        <span>介绍人手机号</span>
+                        <input type="text"/>
+                    </label>
+                    <span class="tips">完善此项有惊喜</span>
+                </div>
+                <div>
+                    <label>
+                        <span>昵称</span>
+                        <input type="text"/>
+                    </label>
+                    <span class="tips">请设置您的昵称</span>
+                </div>
+                <div>
+                    <label>
+                        <span>密码</span>
+                        <input type="text"/>
+                    </label>
+                    <span class="tips">确认登录密码</span>
+                </div>
+                <div>
+                    <label>
+                        <span>确认密码</span>
+                        <input type="text"/>
+                    </label>
+                    <span class="tips">再次确认登录密码</span>
+                </div>
+                <div>
+                    <label>
+                        <span>验证码</span>
+                        <input type="text" style="width:135px;"/>
+                    </label>
+                    <img src="data/code.php?r=echo rand(); ?" width="125" height="30" alt="验证码" id="code">
+					<a href="javascript:change()" >换一张?</a>
+                </div>
+				
+                <div style="margin-left: 100px;margin-top: 20px;">
+                    <label>
+                        <input type="checkbox" checked/>
+                        我已阅读并接受
+                        <a href="#">《为尔服务条款》</a>
+                    </label>
+                </div>
+                <div>
+                    <input id="regbtn" type="button" value="立即注册"/>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/login.js"></script>
+<script>
+				function change(e){
+					 document.getElementById('code').src='data/code.php?r='+Math.random();
+				}
+</script>
+</body>
+</html>

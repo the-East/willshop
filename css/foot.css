@@ -1,0 +1,144 @@
+.footwrap{
+    width: 1200px;
+    margin: auto;
+    font-family: Microsoft Yahei,Simsun;
+    font-size: 14px;
+}
+.footerIcon{
+    padding-top: 40px;
+    height: 90px;
+}
+.footerIcon li{
+    float: left;
+    width: 270px;
+    padding-left: 30px;
+}
+.footerIcon em{
+    display: block;
+    float: left;
+    height: 52px;
+    width: 52px;
+    margin-right: 10px;
+}
+.footerIcon-2{
+    background: url("../img/footer.gif") no-repeat -52px 0;
+}
+.footerIcon-1{
+     background: url("../img/footer.gif") no-repeat 0 0;
+ }
+.footerIcon-3{
+    background: url("../img/footer.gif") no-repeat -104px 0;
+}
+.footerIcon-4{
+    background: url("../img/footer.gif") no-repeat -156px 0;
+}
+
+.footerIcon h4{
+    color: #e52871;
+    font-size:18px;
+    float: left;
+    width: 190px;
+    margin-top: 5px;
+}
+.footerIcon span{
+    color: #999;
+    float: left;
+    font-family: Microsoft Yahei,Simsun;
+    font-size: 14px;
+    width: 190px;
+    /*display: inline-block;*/
+}
+.footerNav{
+    width: 1200px;
+    height: 195px;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+}
+.footerNav ul{
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin: 30px 0 0 30px;
+    border-right:1px solid #DDDDDD;
+}
+.footerNav strong{
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+
+}
+.footerNav li>a{
+    color: #999;
+    padding: auto;
+    line-height: 22px;
+}
+.footerNav li>a:hover{
+    color: #666;
+    text-decoration:underline;
+}
+.footerContact{
+    text-align: center;
+    margin-top: 30px;
+    width: 290px;
+    float: left;
+}
+.footerContact h1{
+    margin-bottom: 10px;
+}
+.footerContact .footer-kefu{
+    margin-top: 10px;
+}
+.footer-kefu>a{
+    display: inline-block;
+    width: 94px;
+    height: 28px;
+
+    border: 1px solid #dadada;
+}
+.footer-kefu .icon-qq{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    /*float: left;*/
+    text-align: center;
+    line-height:28px;
+    background: url("../img/1_1_1.png");
+}
+.footer-kefu .text{
+    display: inline-block;
+    font-size: 14px;
+    line-height:28px;
+    color: black;
+}
+.footerInfo{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.footerInfo a{
+    font-size: 14px;
+    color:#369;
+}
+.footerInfo .footerImg{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.footerInfo .footerImg a img{
+    width: 86px;
+    height: 30px;
+}
+/*返回顶部*/
+.returntop{
+    display: inline-block;
+    height: 60px;
+    width: 35px;
+    position: fixed;
+    bottom:20%;
+    left: 91%;
+    background-image: url(../img/totop.jpg);
+    display: none;
+    cursor: pointer;
+}

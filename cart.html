@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/cart.css"/>
+</head>
+<body>
+<header id="header"></header>
+<div style="height: 30px;"></div>
+<div class="main clear">
+    <div class="logo lf">
+        <a href="index.html">
+            <img height="50" src="img/logo.png"  alt=""/>
+            <img  style="vertical-align: bottom" src="img/cart-icon.png" alt=""/>
+        </a>
+    </div>
+    <div class="search rg">
+        <form action="product_list.html">
+            <input type="text" name="kw"/>
+            <button>搜索</button>
+        </form>
+    </div>
+
+</div>
+<div class="cart-wrap">
+    <div class="empty" style="display: none">
+        <div class="shopping">
+            <h4>购物车空空的哦~，去看看心仪的商品吧~</h4>
+            <a class="a" href="index.html">去购物></a>
+        </div>
+    </div>
+    <div class="cart-main clear">
+        <div class="head">
+            <i>全部商品</i><span></span>
+        </div>
+        <div class="cart-thead">
+            <span class="s">
+                <input type="checkbox"/>全选
+            </span>
+            <span class="l">商品信息</span>
+            <span class="s">单价</span>
+            <span class="s">数量</span>
+            <span class="s">金额</span>
+            <span class="s">操作</span>
+        </div>
+        <div class="cart-list">
+            <ul class="clear">
+                <li class="s" >
+                    <input type="checkbox"/>
+                </li>
+                <li class="s ">
+                    <img height="80"width="80"  src="img/2weima.jpg" alt=""/>
+                </li>
+                <li id="item-t">
+                    <p>title="OPPO R11s Plus 前后2000万 全面屏拍照 4G手机 oppor11splus"</p>
+                </li>
+                <li class="s">￥3699.00</li>
+                <li class="s">5</li>
+                <li class="s">￥3699.00</li>
+                <li class="s">
+                    <a href="#">删除</a>
+                </li>
+            </ul>
+        </div>
+        <button class="pay rg">去结算</button>
+    </div>
+</div>
+
+<footer id="footer"></footer>
+
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/cart.js"></script>
+</html>

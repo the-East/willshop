@@ -1,0 +1,54 @@
+body,p,h1,h2,h3,h4,h5,h6,li,ul,a,i,p,th,td,dl,dd,button,form,fieldset,legend,input,textarea,select,img{
+    padding:0;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+body{
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #e52871;
+    /*text-decoration:underline*/
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.lf{
+    float: left;
+}
+.rg{
+    float: right;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+input:focus{
+   outline: none;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: none;
+}
+span {
+    display: inline-block;
+    zoom: 1;
+}
